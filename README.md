@@ -1,0 +1,2 @@
+# Enkuluze
+The luganda dictionary
