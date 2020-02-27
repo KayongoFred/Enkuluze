@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+    padding: 0;
+
+}
+.site-content{
+    height: 100vh;
+    width: 100vw;
+    background-image: url('images/bac.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+*{
+    font-family: Aclonica;
+    color: white;
+}
+nav{
+    width: 100vw;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    
+}
+.brand{
+    font-size: 4vw;
+    font-family: Berkshire Swash;
+    margin-left: 5vw;
+    margin-top: 4vw;
+    color: #ff9900;
+}
+.nav-item{
+    margin-top: 6vw;
+    padding: 2vw;
+    font-size: 1.5vw;
+    color: #ff9900;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+}
+.content h1,h2,h3{
+    padding: 0;
+    margin: 0;
+    text-shadow: 10px 20px 60px black;
+}
+.content h2{
+    font-size: 3vw;
+    color: #91CB3E;
+}
+.content h1{
+    font-size: 6vw;
+    color: cyan;
+}
+.content h3{
+    font-size: 2vw;
+    color: cyan;
+}
+button{
+    padding: 2vh 2vw;
+    margin: 2vh 2vw;
+    border-radius: 50px;
+    border: 2px solid #ff9900;
+    background-color: transparent;
+    box-shadow: 0px 15px 20px black;
+    font-size: 1.3vw;
+}
+button:hover{
+    background-color: #ff9900;
+    cursor: pointer;
+}
